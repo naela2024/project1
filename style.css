@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    height: 2000px;
+} 
+header{
+    display: flex;
+    background-color: #d9cccc;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 150px;
+    }
+.logo{
+    color: red;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+nav a{
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right:30px;
+}
+nav a:hover {
+    color: blue;
+    font-weight: 900;
+}
+.Home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('https://www.shutterstock.com/image-photo/ai-technology-artificial-intelligence-man-600nw-2263545623.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section{
+    padding: 100px 150px;
+}
+.Home h2{
+    color: rgb(249, 246, 246);
+    font-size:30px;
+    font-weight: bold;
+    
+}
+.Home h2 span{
+    color: red;
+    font-size:25px;
+}
+.Home h3{
+    color: rgb(254, 254, 254);
+    font-size: 50px;
+    font-weight: bold;
+}
+.contact-me{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-bottom:10px;
+    font-weight: 600;
+    transition: 0.5s ease; 
+}
+.contact-me:hover{
+    transform: scale(1.1);
+    background-color: rgb(203, 131, 131);
+}
+
+.social a{
+    color: white;
+    font-size: 30px;
+    padding-right: 25px;
+}
+
+.our-servises{
+    text-align: center;
+    background-color: #eee;
+}
+.our-servises h2{
+    color: red;
+    font-size: 35px;
+}
+.our-servises p{
+    color: rgb(74, 74, 74);
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+.Servises{
+    display: flex;
+}
+.box{
+    background-color: #fff;
+    padding: 20px;
+    width: 33%;
+    margin: 10px;
+    border-radius: 10px;
+    border:  1px solid #ccb7b7;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.box:hover{
+    background-color: #f6eeee;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px red;
+    transform: scale(1.1);
+}
+.box h3{
+     font-size: 30px;
+}
+
+.icon{
+    color: red;
+    font-size: 40px;
+}
+.port {
+    text-align: center;
+    background-color: #fcfafa;
+}
+.port h2{
+    color: red;
+    font-size: 35px;
+}
+.port p{
+    color: rgb(74, 74, 74);
+    font-size: 22px;
+    margin-bottom: 35px;  
+}
+.photos {
+    display: flex;
+}
+.photo{
+    margin: 20px;
+}
+.photo img {
+    width: 120%;
+    padding: 40px;
+}
+.contact-us{
+    background-color: #eee;
+    text-align: center;
+}
+.contact-us h2{
+    color: red;
+    font-size: 35px;
+}
+.contact-us p{
+    color: rgb(74, 74, 74);
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+.contact-area{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 35px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+.form-input input{
+    width: 60%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+}
+.form-input textarea{
+    width: 60%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+}
+.sent{
+    padding:5px 25px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.sent:hover{
+    background-color: rgb(219, 88, 88);
+    transform: scale(1.1);    
+}
+footer {
+    border-top: 5px solid red;
+    background-color: #433b3b;
+    padding-top: 40px;
+    text-align: center;
+}
+footer p{
+    color: white;
+    font-size: 23px;
+    padding: 10px 10px;
+}
